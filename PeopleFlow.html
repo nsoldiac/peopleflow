@@ -1,0 +1,203 @@
+<head>
+  <title>Blueprint: Slide and Push Menus</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="description" content="Blueprint: Slide and Push Menus" />
+  <meta name="keywords" content="sliding menu, pushing menu, navigation, responsive, menu, css, jquery" />
+  <meta name="author" content="Codrops" />
+</head>
+
+<body>
+	<h1>Welcome to Meteor!</h1>
+
+	{{> hello}}
+
+	<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+			<h3>Current Projects</h3>
+            <a href="#">Projet Overview</a>
+			<a href="#">Projet 1</a>
+			<a href="#">Project 2</a>
+			<a href="#">Project 3</a>
+			<a href="#">Project 4</a>
+			<a href="#">Project 5</a>
+			<a href="#">Project 6</a>
+		</nav>
+		<div class="container">
+			<div class="main">
+                <header><h1>Project Overview</h1></header>
+                <section class="buttonset">
+                    <button id="showLeftPush">+</button>
+                </section>
+			</div>
+            <div class="overview">
+                <img src="img/timeline.png"/>
+            </div>
+            <div class="info">
+                <div class="project-details">
+                    <h1 class="left-right">Project Name</h1>
+                    <div class="project-stats">
+                        <div id="va-accordion2" class="va-container">
+                            <div class="va-nav">
+                                <span class="va-nav-prev">Previous</span>
+                                <span class="va-nav-next">Next</span>
+                            </div>
+                            <div class="va-wrapper">
+                                <div class="va-slice va-slice-1">
+                                    <h3 class="va-title">Status</h3>
+                                    <div class="va-content">
+                                        <ul>
+                                            <li class="confirmed">Design &mdash; Confirmed</li>
+                                            <li class="planned">Server &mdash; Planned</li>
+                                            <li class="confirmed">Database &mdash; Confirmed</li>
+                                            <li class="unclear">iOS &mdash; Unclear</li>
+                                            <li class="unclear">Android &mdash; Unclear</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="va-slice va-slice-2">
+                                    <h3 class="va-title">Length</h3>
+                                    <div class="va-content">
+                                        <ul>
+                                            <li>Design &mdash; <span class="time">4 Weeks</span></li>
+                                            <li>Server &mdash; <span class="time">2 Weeks</span></li>
+                                            <li>Database &mdash; <span class="time">3 Weeks</span></li>
+                                            <li>iOS &mdash; <span class="time">2 Months (Projected)</span></li>
+                                            <li>Android &mdash; <span class="time">3 Months (Projected)</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="va-slice va-slice-3">
+                                    <h3 class="va-title">Tasks</h3>
+                                    <div class="va-content">
+                                        <ul>
+                                            <li>Home Page Design</li>
+                                            <li>Landing Page Design</li>
+                                            <li>Content Page Design</li>
+                                            <li>CMS</li>
+                                            <li>CDN</li>
+                                            <li>Server</li>
+                                            <li>Database</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="va-slice va-slice-3">
+                                    <h3 class="va-title"></h3>
+                                    <div class="va-content">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-details">
+                    <h1>Resources</h1>
+                    <div class="more-resources">
+                        <a href="">More Resources</a>
+                    </div>
+                    <div class="resources-list">
+                        <ul>
+                            <li>
+                                <span class="full-name">John Smith </span> &NonBreakingSpace; &mdash; <span class="focus">Front-End</span>
+                            </li>
+                            <li>
+                                <span class="full-name">Tim Robins </span> &NonBreakingSpace; &mdash; <span class="focus">Back-End</span>
+                            </li>
+                            <li>
+                                <span class="full-name">Eva Johnson </span> &NonBreakingSpace; &mdash; <span class="focus">Front-End</span>
+                            </li>
+                            <li>
+                                <span class="full-name">Evan Riely </span> &NonBreakingSpace; &mdash; <span class="focus">QA</span>
+                            </li>
+                            <li>
+                                <span class="full-name">Tim O'Riely </span> &NonBreakingSpace; &mdash; <span class="focus">AB Testing</span>
+                            </li>
+                            <li>
+                                <span class="full-name">Matt Evans </span> &NonBreakingSpace; &mdash; <span class="focus">UX</span>
+                            </li>
+                            <li>
+                                <span class="full-name">Nico Robins </span> &NonBreakingSpace; &mdash; <span class="focus">UI</span>
+                            </li>
+                            <li>
+                                <span class="full-name">Juan Robins </span> &NonBreakingSpace; &mdash; <span class="focus">Back-End</span>
+                            </li>
+                            <li>
+                                <span class="full-name">Stacey Robins </span> &NonBreakingSpace; &mdash; <span class="focus">Back-End</span>
+                            </li>
+                            <li>
+                                <span class="full-name">Bryan Robins </span> &NonBreakingSpace; &mdash; <span class="focus">Business Strategy</span>
+                            </li>
+                            <li>
+                                <span class="full-name">Jim Robins </span> &NonBreakingSpace; &mdash; <span class="focus">UX</span>
+                            </li>
+                            <li>
+                                <span class="full-name">Bob Robins </span> &NonBreakingSpace; &mdash; <span class="focus">AB Testing</span>
+                            </li>
+                            <li>
+                                <span class="full-name">Paul Robins </span> &NonBreakingSpace; &mdash; <span class="focus">Full Stack</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project-details">
+                    <h1 class="left-right">John Smith</h1>
+                        <div class="skills">
+                            <div id="va-accordion" class="va-container">
+                                <div class="va-nav">
+                                    <span class="va-nav-prev">Previous</span>
+                                    <span class="va-nav-next">Next</span>
+                                </div>
+                                <div class="va-wrapper">
+                                    <div class="va-slice va-slice-1">
+                                        <h3 class="va-title">Skills</h3>
+                                        <div class="va-content">
+                                            <ul>
+                                                <li>HTML</li>
+                                                <li>CSS</li>
+                                                <li>Javascript</li>
+                                                <li>jQuery</li>
+                                                <li>Python</li>
+                                                <li>MySQL</li>
+                                                <li>MEAN Stack</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="va-slice va-slice-2">
+                                        <h3 class="va-title">Projects</h3>
+                                        <div class="va-content">
+                                            <ul>
+                                                <li>Project1</li>
+                                                <li>Project2</li>
+                                                <li>Project3</li>
+                                                <li>Project4</li>
+                                                <li>Project5</li>
+                                                <li>Project6</li>
+                                                <li>Project7</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="va-slice va-slice-2">
+                                        <h3 class="va-title">Connections</h3>
+                                        <div class="va-content">
+                                            <ul>
+                                                <li>Evan Riely</li>
+                                                <li>Juan Robins</li>
+                                                <li>Stacey Robins</li>
+                                                <li>Bryan Robins</li>
+                                                <li>Matt Evans</li>
+                                                <li>John Smith</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                		</div>
+            		</div>
+				</div>
+			</div>
+</body>
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
